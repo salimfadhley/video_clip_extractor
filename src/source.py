@@ -1,4 +1,3 @@
-import re
 import os
 from contextlib import contextmanager
 from dataclasses import dataclass, field
@@ -48,7 +47,7 @@ class Clip:
         if not os.path.exists(output_file_path):
             log.info(f"Extracting {self}")
             metadata_string = " ".join([f"-metadata {k}=\"{v}\"" for (k,v) in self.metadata.items()])
-            command = ["ffmpeg", "-i", self.source.file_path, "-ss", self.start_timecode, "-to", self.end_timecode, "-async", "1",  metadata_string, output_file_path]
+            command = ["ffmpeg", "-i", f"\"{self.source.file_path}\"", "-ss", self.start_timecode, "-to", self.end_timecode, "-async", "1",  metadata_string, f"\"{output_file_path}\""]
             log.info(f"Executing: {' '.join(command)}")
             output = subprocess.check_output(" ".join(command), shell=True)
             log.info(output)

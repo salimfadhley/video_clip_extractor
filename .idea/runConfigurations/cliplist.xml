@@ -5,8 +5,8 @@
     <option name="PARENT_ENVS" value="true" />
     <envs>
       <env name="PYTHONUNBUFFERED" value="1" />
-      <env name="INPUT_DIRECTORY" value="$USER_HOME$/Dropbox/Clips/mark_steele_interviews" />
-      <env name="OUTPUT_DIRECTORY" value="$USER_HOME$/Dropbox/Clips/mark_steele_interview_clips" />
+      <env name="INPUT_DIRECTORY" value="$USER_HOME$/Dropbox/5G/Nutters/Mark Steele/Clips/mark_steele_interviews" />
+      <env name="OUTPUT_DIRECTORY" value="$USER_HOME$/Dropbox/5G/Nutters/Mark Steele/Clips/mark_steele_interview_clips" />
     </envs>
     <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python3.8" />
     <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
