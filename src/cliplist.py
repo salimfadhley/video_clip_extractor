@@ -71,7 +71,7 @@ def main():
             s.clip("steele_on_mcniel.mp4", "00:40:03", "00:41:01", title="Kim asks Mark to comment aobut McNeil's video")
             # Skipping loads
             s.clip("do_viruses_exist.mp4", "01:34:28", "01:34:38", title="I ask Mark if viruses exist")
-            s.clip("wifi_causes_diabetes.mp4", "01:35:03", "01:35:46", title="Mark suggests that turning off wifi will cure diabetes")
+            s.clip("wifi_causes_diabetes.mp4", "01:35:03", "01:35:47", title="Mark suggests that turning off wifi will cure diabetes")
             s.clip("wifi_causes_diabetes.mp4", "01:35:52", "01:37:23", title="Mark evedes showing evidence")
             s.clip("do_viruses_cause_disease.mp4", "01:37:49", "01:38:38", title="I ask Mark if viruses cause disease")
             s.clip("do_viruses_cause_disease.mp4", "01:39:00", "01:40:25", title="I ask Mark if viruses cause disease")
